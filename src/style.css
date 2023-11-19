@@ -30,13 +30,15 @@ h6 {
 .hero-section h1 {
   font-size: 86px;
 }
-.hero-section h2 {
+.hero-section h2,
+.about-content h2 {
   font-family: var(--body-font);
   font-size: 24px;
   font-weight: normal;
   color: var(--third-color);
-  line-height: 50px;
+  line-height: 30px;
 }
+
 .primary-btn {
   background: var(--first-color);
   color: white;
