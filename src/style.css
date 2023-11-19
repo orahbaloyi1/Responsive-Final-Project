@@ -1,0 +1,83 @@
+:root {
+  --first-color: #6c63ff;
+  --second-color: #f9f7fe;
+  --third-color: #272142;
+  --heading-font: Playfair Display, serif;
+  --body-font: Poppins, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+
+.hero-section {
+  text-align: center;
+  background: var(--second-color);
+  padding: 120px 0;
+}
+.hero-section p {
+  font-family: var(--body-font);
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.hero-section h1 {
+  font-size: 86px;
+}
+.hero-section h2 {
+  font-family: var(--body-font);
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--third-color);
+  line-height: 50px;
+}
+.primary-btn {
+  background: var(--first-color);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.secondary-btn {
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.description {
+  padding: 100px 30px;
+}
+.description h3 {
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+.description p {
+  font-size: 16px;
+}
+.footer {
+  background: var(--second-color);
+  padding: 30px 40px;
+}
+
+@media (max-width: 900px) {
+  .hero-section h1 {
+    font-size: 46px;
+  }
+  .hero-section p {
+    font-size: 16px;
+  }
+  .description h3 {
+    font-size: 42px;
+  }
+  .description {
+    text-align: center;
+    padding: 15px 30px;
+  }
+}
