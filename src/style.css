@@ -30,10 +30,16 @@ h6 {
 .hero-section h1 {
   font-size: 86px;
 }
-.hero-section h2,
-.about-content h2 {
+.hero-section h2 {
   font-family: var(--body-font);
   font-size: 24px;
+  font-weight: normal;
+  color: var(--third-color);
+  line-height: 30px;
+}
+.about-content h2 {
+  font-family: var(--body-font);
+  font-size: 18px;
   font-weight: normal;
   color: var(--third-color);
   line-height: 30px;
@@ -67,6 +73,11 @@ h6 {
   background: var(--second-color);
   padding: 30px 40px;
 }
+img {
+  border-radius: 4px;
+  width: 400px;
+  margin-left: 40px;
+}
 
 @media (max-width: 900px) {
   .hero-section h1 {
@@ -81,5 +92,14 @@ h6 {
   .description {
     text-align: center;
     padding: 15px 30px;
+  }
+  img {
+    margin: 40px auto;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
   }
 }
