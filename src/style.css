@@ -85,7 +85,26 @@ img {
   text-align: center;
   margin-top: 2px;
 }
-
+.contact-content {
+  padding: 120px 0px 60px 60px;
+}
+.contact-link {
+  text-align: center;
+  margin-top: 40px;
+}
+.contact-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--first-color);
+}
+.social-links a {
+  margin-right: 10px;
+}
 @media (max-width: 900px) {
   .hero-section h1 {
     font-size: 46px;
@@ -113,6 +132,9 @@ img {
     text-align: center;
   }
   .work-content {
+    text-align: center;
+  }
+  .contact-content {
     text-align: center;
   }
 }
