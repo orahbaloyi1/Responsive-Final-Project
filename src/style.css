@@ -125,7 +125,8 @@ li a {
   font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: var(--first-color);
 }
 
