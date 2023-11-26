@@ -105,13 +105,28 @@ img {
 .social-links a {
   margin-right: 10px;
 }
-.navbar {
-  align-content: center;
+.logo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
 }
 ul li {
   list-style: none;
   display: inline;
   margin-left: 20px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--first-color);
 }
 
 @media (max-width: 900px) {
@@ -145,9 +160,5 @@ ul li {
   }
   .contact-content {
     text-align: center;
-  }
-  ul li {
-    margin-left: 10px;
-    font-size: 16px;
   }
 }
