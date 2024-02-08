@@ -150,8 +150,8 @@ nav li.active a {
 }
 
 .skill-bar {
-  height: 25px;
-  border-radius: 8px;
+  height: 20px;
+  border-radius: 6px;
   background-color: var(--second-color);
   overflow: hidden;
 }
