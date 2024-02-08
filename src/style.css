@@ -79,7 +79,7 @@ img {
   margin-left: 40px;
 }
 .profile {
-  border-radius: 50px;
+  border-radius: 100px;
 }
 .img-fluid {
   background-color: var(--second-color);
