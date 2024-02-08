@@ -136,6 +136,35 @@ nav li.active a {
   color: var(--first-color);
 }
 
+.skills-container {
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-label {
+  font-weight: bold;
+}
+
+.skill-bar {
+  height: 15px;
+  border-radius: 8px;
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  border-radius: 8px;
+  background-color: #3498db;
+}
+
 @media (max-width: 900px) {
   .hero-section h1 {
     font-size: 46px;
