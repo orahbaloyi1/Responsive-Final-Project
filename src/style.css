@@ -81,6 +81,7 @@ img {
 .profile {
   border-radius: 50%;
   background-color: var(--second-color);
+  width: 100px;
 }
 
 .project-title {
