@@ -78,6 +78,9 @@ img {
   width: 400px;
   margin-left: 40px;
 }
+.about-img {
+  border-radius: 50px;
+}
 .img-fluid {
   background-color: var(--second-color);
 }
