@@ -197,4 +197,7 @@ nav li.active a {
   .skillset {
     margin-bottom: 0px;
   }
+  .skills-container {
+    width: 100%;
+  }
 }
