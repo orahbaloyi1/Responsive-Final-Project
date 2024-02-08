@@ -194,4 +194,7 @@ nav li.active a {
   .contact-content {
     text-align: center;
   }
+  .skillset {
+    margin-bottom: 2px;
+  }
 }
