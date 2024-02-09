@@ -81,7 +81,7 @@ img {
 }
 .img-background {
   background-color: var(--second-color);
-  padding: 40px 40px;
+  padding: 40px 30px;
 }
 .profile {
   border-radius: 50%;
@@ -198,6 +198,9 @@ nav li.active a {
   }
   .contact-content {
     text-align: center;
+  }
+  .img-background {
+    padding: 0px;
   }
   .skillset {
     margin-top: 0px !important;
