@@ -197,4 +197,7 @@ nav li.active a {
   .skillset {
     margin-top: 0px !important;
   }
+  .skill-label {
+    text-align: center;
+  }
 }
