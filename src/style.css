@@ -195,6 +195,6 @@ nav li.active a {
     text-align: center;
   }
   .skillsetone {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 }
