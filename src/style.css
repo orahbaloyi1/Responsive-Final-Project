@@ -83,7 +83,7 @@ img {
   background-color: var(--second-color);
   padding: 40px 30px;
   border-radius: 8px;
-  box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 1.5px 0px rgba(0, 0, 0, 0.3);
 }
 .profile {
   border-radius: 50%;
