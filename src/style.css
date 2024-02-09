@@ -83,13 +83,13 @@ img {
   background-color: var(--second-color);
   padding: 40px 30px;
   border-radius: 8px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
 }
 .profile {
   border-radius: 50%;
   background-color: var(--second-color);
   width: 300px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 .project-title {
