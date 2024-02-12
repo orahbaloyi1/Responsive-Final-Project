@@ -54,7 +54,7 @@ h6 {
   text-decoration: none;
 }
 .primary-btn:hover {
-  background-color: var(--second-color);
+  background-color: var(--fourth-color);
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
