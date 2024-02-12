@@ -67,6 +67,13 @@ h6 {
   border-radius: 4px;
   text-decoration: none;
 }
+.secondary-btn:hover {
+  color: var(--fourth-color);
+  border: 1px solid var(--fourth-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
 .description {
   padding: 40px 30px;
 }
